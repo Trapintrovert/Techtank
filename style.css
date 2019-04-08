@@ -1,3 +1,12 @@
+/*
+  Project: TechTank Website
+  Author: Trap Introvert
+  github: https://github.com/Trapintrovert
+
+ */
+
+ /* HOME PAGE STYLE */
+
 @media (max-width:575px) {
 
   #detail .card{
@@ -14,14 +23,26 @@
 
 /* Medium devices (tablets) */
 @media (min-width:768px) {
+
   #detail .card{
-    height: 475px;
+    height: 425px;
   }
   #detail .card-body{
     padding-top: 110px;
   }
   #detail .display-4 {
     font-size: 3.0rem;
+  }
+  .dropdown-toggle{
+    white-space: normal;
+  }
+  /* ABOUT SECTION */
+  #about{
+    padding-top: 110px !important;
+  }
+  #about-card h3{
+    margin-left: 16%;
+    margin-right: 21%;
   }
 }
 
@@ -41,6 +62,13 @@
   #detail .card{
     height: 300px;
   }
+  #about-card h3{
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  #about-card  .card{
+    height: 210px;
+  }
 }
 
 .navbar li a:hover{
@@ -50,7 +78,13 @@ border-radius: 2px;
 .navbar{
   background: rgba(4, 23, 72, 0.9);
 }
-
+.dropdown-menu{
+  color: #fff;
+  background-color: rgba(4, 23, 72, 0.9);
+}
+.dropdown-item{
+  color: #fff;
+}
 .carousel-item{
   height: 600px;
 }
@@ -121,6 +155,7 @@ border-radius: 2px;
   border-radius: 0px 0px 5px 5px;
   width: 79px;
   height: 2px;
+  margin-left: 40px;
 }
 #main-footer a:hover{
   text-decoration: none;
@@ -133,4 +168,63 @@ border-radius: 2px;
 
 #sub-footer{
   background: #000;
+}
+#sub-footer a p{
+  font-size: 10px;
+}
+
+
+/* ABOUT US PAGE */
+
+#about hr{
+  background: rgba(4, 23, 72, 0.9);
+  border: 1px solid rgba(4, 23, 72, 0.9);
+  border-radius: 0px 0px 5px 5px;
+  width: 79px;
+  height: 2px;
+  margin-left: 46%;
+}
+
+#about h3{
+  color: rgba(4, 23, 72, 0.9);
+}
+
+#about-card .about-card-image-1 {
+    background: url('images/programs.png');
+    background-size: cover;
+}
+
+#about-card .about-card-image-2 {
+    background: url('images/Research and Development - TechTank.png');
+    background-size: cover;
+}
+
+#about-card .about-card-image-3 {
+    background: url('images/innovation.png');
+    background-size: cover;
+}
+#about-card .about-card-image-4 {
+    background: url('images/consulting.png');
+    background-size: cover;
+}
+#about-card .about-card-image-5 {
+    background: url('images/Team.png');
+    background-size: cover;
+}
+
+#about-card h3{
+  color: #fff;
+  background: rgba(4, 23, 72, 0.9);
+  opacity: 0.8;
+  font-size: 40px;
+}
+#about-card a{
+  color: #fff;
+}
+#about-card a:hover{
+  text-decoration: none;
+  list-style: none;
+}
+#about-card  .card{
+  border: 0px;
 }
