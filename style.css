@@ -19,6 +19,16 @@
   .carousel-caption h2{
     font-size: 52px;
   }
+  /* DIGITAL PROGRAM PAGE */
+
+  #programs .detail-btn{
+  margin-left: 40%;
+  padding-top: 4em;
+  }
+  #digital-project .detail-btn{
+  margin-left: 40%;
+  padding-top: 4em;
+  }
 }
 
 /* Medium devices (tablets) */
@@ -44,6 +54,19 @@
     margin-left: 16%;
     margin-right: 21%;
   }
+
+  /* DIGITAL PROGRAM PAGE */
+
+  #programs .detail-btn{
+  margin-left: 70%;
+  padding-top: 7em;
+  }
+
+  /* DIGITAL PROJECT MANAGEMENT */
+  #digital-project .detail-btn{
+    margin-left: 70%;
+    padding-top: 7em;
+  }
 }
 
 
@@ -68,6 +91,23 @@
   }
   #about-card  .card{
     height: 210px;
+  }
+
+  /* DIGITAL PROGRAM PAGE */
+
+  #programs .detail-btn{
+  margin-left: 80%;
+  padding-top: 4em;
+  }
+
+  #programs .card{
+    height: 200px;
+  }
+
+  /* DIGITAL PROJECT MANAGEMENT */
+  #digital-project .detail-btn{
+    margin-left: 80%;
+    padding-top: 4em;
   }
 }
 
@@ -143,6 +183,9 @@ border-radius: 2px;
 #detail h2{
   background: #fff;
   opacity: 0.7;
+  color: rgba(4, 23, 72, 0.9);
+}
+#detail h3{
   color: rgba(4, 23, 72, 0.9);
 }
 
@@ -227,4 +270,50 @@ border-radius: 2px;
 }
 #about-card  .card{
   border: 0px;
+}
+
+/* DIGITAL PROGRAM PAGE */
+
+#programs .btn-primary{
+  background: rgba(4, 23, 72, 0.9);
+  border-color: rgba(4, 23, 72, 0.9);
+}
+
+#programs h2{
+  color: rgba(4, 23, 72, 0.9);
+}
+#programs .card h2:hover{
+  color: #fff;
+}
+#programs a:hover{
+  text-decoration: none;
+  list-style: none;
+}
+
+#programs .card{
+  box-shadow: 1px -2px 3px 2px #ECECEC;
+}
+#programs .card:hover {
+  background:  rgba(4, 23, 72, 0.9);
+  color: #ffffff;
+}
+
+
+/* DIGITAL PROJECT MANAGEMENT */
+
+#digital-project .btn-primary{
+  background: rgba(4, 23, 72, 0.9);
+  border-color: rgba(4, 23, 72, 0.9);
+}
+ #digital-project hr{
+   background: rgba(4, 23, 72, 0.9);
+   border: 1px solid rgba(4, 23, 72, 0.9);
+   border-radius: 0px 0px 5px 5px;
+   width: 79px;
+   height: 2px;
+   margin-left: 46%;
+ }
+
+#digital-project h2{
+  color: rgba(4, 23, 72, 0.9);
 }
