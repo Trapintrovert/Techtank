@@ -25,7 +25,9 @@
   margin-left: 40%;
   padding-top: 4em;
   }
-  #digital-project .detail-btn{
+
+  /* DIGITAL PROJECT MANAGEMENT PAGE */
+  #logreg .logreg-btn{
   margin-left: 40%;
   padding-top: 4em;
   }
@@ -43,9 +45,7 @@
   #detail .display-4 {
     font-size: 3.0rem;
   }
-  .dropdown-toggle{
-    white-space: normal;
-  }
+
   /* ABOUT SECTION */
   #about{
     padding-top: 110px !important;
@@ -62,8 +62,8 @@
   padding-top: 7em;
   }
 
-  /* DIGITAL PROJECT MANAGEMENT */
-  #digital-project .detail-btn{
+  /* DIGITAL PROJECT MANAGEMENT PAGE */
+  #logreg .logreg-btn{
     margin-left: 70%;
     padding-top: 7em;
   }
@@ -105,7 +105,7 @@
   }
 
   /* DIGITAL PROJECT MANAGEMENT */
-  #digital-project .detail-btn{
+  #logreg .logreg-btn{
     margin-left: 80%;
     padding-top: 4em;
   }
@@ -118,13 +118,7 @@ border-radius: 2px;
 .navbar{
   background: rgba(4, 23, 72, 0.9);
 }
-.dropdown-menu{
-  color: #fff;
-  background-color: rgba(4, 23, 72, 0.9);
-}
-.dropdown-item{
-  color: #fff;
-}
+
 .carousel-item{
   height: 600px;
 }
@@ -189,6 +183,14 @@ border-radius: 2px;
   color: rgba(4, 23, 72, 0.9);
 }
 
+#detail .btn-outline-primary{
+  border-color: rgba(4, 23, 72, 0.9);
+  color: rgba(4, 23, 72, 0.9);
+}
+#detail .btn-outline-primary:hover{
+  background-color: rgba(4, 23, 72, 0.9);
+  color: #fff;
+}
 #main-footer{
   background: rgba(4, 23, 72, 0.9);
 }
@@ -268,6 +270,7 @@ border-radius: 2px;
   text-decoration: none;
   list-style: none;
 }
+
 #about-card  .card{
   border: 0px;
 }
@@ -299,21 +302,179 @@ border-radius: 2px;
 }
 
 
-/* DIGITAL PROJECT MANAGEMENT */
+/* SIGN IN AND REGISTRATION */
 
-#digital-project .btn-primary{
+#logreg .btn-primary{
   background: rgba(4, 23, 72, 0.9);
   border-color: rgba(4, 23, 72, 0.9);
 }
- #digital-project hr{
-   background: rgba(4, 23, 72, 0.9);
-   border: 1px solid rgba(4, 23, 72, 0.9);
-   border-radius: 0px 0px 5px 5px;
-   width: 79px;
-   height: 2px;
-   margin-left: 46%;
- }
 
-#digital-project h2{
+/* ALL DIGITAL TRAINING PROGRAM H2 AND HR */
+
+#digital-project h2,
+#digital-product h2,
+#business-analysis h2,
+#performance-management h2,
+#digital-specialist h2,
+#user-research h2,
+#data-analysis h2,
+#content-and-design h2{
   color: rgba(4, 23, 72, 0.9);
+}
+
+#digital-project hr,
+#digital-product hr,
+#business-analysis hr,
+#performance-management hr,
+#digital-specialist hr,
+#user-research hr,
+#data-analysis hr,
+#content-and-design hr{
+  background: rgba(4, 23, 72, 0.9);
+  border: 1px solid rgba(4, 23, 72, 0.9);
+  border-radius: 0px 0px 5px 5px;
+  width: 79px;
+  height: 2px;
+  margin-left: 46%;
+}
+
+
+/* DIGITAL PROJECT MANAGEMENT */
+
+.digital-project-image-1{
+  background: url('images/Digital Training -TechTank.png');
+  background-size: cover;
+}
+
+.digital-project-image-2{
+  background: url('images/Digital Research - TechTanks.png');
+  background-size: cover;
+}
+
+.digital-project-image-3{
+  background: url('images/Consulting 2 - TechTank.png');
+  background-size: cover;
+}
+
+
+/* DIGITAL PRODUCT MANAGEMENT SLIDER */
+
+.digital-product-image-1{
+  background: url('images/Digital Training -TechTank.png');
+  background-size: cover;
+}
+
+.digital-product-image-2{
+  background: url('images/Digital Research - TechTanks.png');
+  background-size: cover;
+}
+
+.digital-product-image-3{
+  background: url('images/Consulting 2 - TechTank.png');
+  background-size: cover;
+}
+
+
+/* DIGITAL BUSINESS MANAGEMENT SLIDER */
+
+.business-analysis-image-1{
+  background: url('images/Digital Training -TechTank.png');
+  background-size: cover;
+}
+
+.business-analysis-image-2{
+  background: url('images/Digital Research - TechTanks.png');
+  background-size: cover;
+}
+
+.business-analysis-image-3{
+  background: url('images/Consulting 2 - TechTank.png');
+  background-size: cover;
+}
+
+
+/* DIGITAL PERFORMANCE MANAGEMENT SLIDER */
+
+.performance-management-image-1{
+  background: url('images/Digital Training -TechTank.png');
+  background-size: cover;
+}
+
+.performance-management-image-2{
+  background: url('images/Digital Research - TechTanks.png');
+  background-size: cover;
+}
+
+.performance-management-image-3{
+  background: url('images/Consulting 2 - TechTank.png');
+  background-size: cover;
+}
+
+/* DIGITAL SPECIALIST SLIDER */
+
+.digital-specialist-image-1{
+  background: url('images/Digital Training -TechTank.png');
+  background-size: cover;
+}
+
+.digital-specialist-image-2{
+  background: url('images/Digital Research - TechTanks.png');
+  background-size: cover;
+}
+
+.digital-specialist-image-3{
+  background: url('images/Consulting 2 - TechTank.png');
+  background-size: cover;
+}
+
+/* USER RESEARCH SLIDER */
+
+.user-research-image-1{
+  background: url('images/Digital Training -TechTank.png');
+  background-size: cover;
+}
+
+.user-research-image-2{
+  background: url('images/Digital Research - TechTanks.png');
+  background-size: cover;
+}
+
+.user-research-image-3{
+  background: url('images/Consulting 2 - TechTank.png');
+  background-size: cover;
+}
+
+/* DATA ANALYSIS SLIDER */
+
+.data-analysis-image-1{
+  background: url('images/Digital Training -TechTank.png');
+  background-size: cover;
+}
+
+.data-analysis-image-2{
+  background: url('images/Digital Research - TechTanks.png');
+  background-size: cover;
+}
+
+.data-analysis-image-3{
+  background: url('images/Consulting 2 - TechTank.png');
+  background-size: cover;
+}
+
+
+/* CONTENT AND DESIGN SLIDER */
+
+.content-and-design-image-1{
+  background: url('images/Digital Training -TechTank.png');
+  background-size: cover;
+}
+
+.content-and-design-image-2{
+  background: url('images/Digital Research - TechTanks.png');
+  background-size: cover;
+}
+
+.content-and-design-image-3{
+  background: url('images/Consulting 2 - TechTank.png');
+  background-size: cover;
 }
