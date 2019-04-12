@@ -142,16 +142,15 @@ border-radius: 2px;
   padding-bottom: 90px;
 }
 
-.carousel-caption h2{
+.carousel-caption h2,
+.carousel-caption p,
+#consulting-header h2,
+#consulting-header p{
   background: #fff;
   opacity: 0.7;
   color: rgba(4, 23, 72, 0.9);
 }
-.carousel-caption p{
-  background: #fff;
-  opacity: 0.7;
-    color: rgba(4, 23, 72, 0.9);
-}
+
 
 #detail a:hover{
   text-decoration: none;
@@ -221,14 +220,6 @@ border-radius: 2px;
 
 /* ABOUT US PAGE */
 
-#about hr{
-  background: rgba(4, 23, 72, 0.9);
-  border: 1px solid rgba(4, 23, 72, 0.9);
-  border-radius: 0px 0px 5px 5px;
-  width: 79px;
-  height: 2px;
-  margin-left: 46%;
-}
 
 #about h3{
   color: rgba(4, 23, 72, 0.9);
@@ -257,21 +248,23 @@ border-radius: 2px;
     background-size: cover;
 }
 
-#about-card h3{
+#about-card h3, #research h2{
   color: #fff;
   background: rgba(4, 23, 72, 0.9);
   opacity: 0.8;
   font-size: 40px;
 }
-#about-card a{
+#about-card a, #research a{
   color: #fff;
 }
-#about-card a:hover{
+#about-card a:hover,
+#research a:hover,
+#consulting a:hover{
   text-decoration: none;
   list-style: none;
 }
 
-#about-card  .card{
+#about-card .card, #research .card{
   border: 0px;
 }
 
@@ -322,6 +315,8 @@ border-radius: 2px;
   color: rgba(4, 23, 72, 0.9);
 }
 
+#about hr,
+#consulting hr,
 #digital-project hr,
 #digital-product hr,
 #business-analysis hr,
@@ -477,4 +472,53 @@ border-radius: 2px;
 .content-and-design-image-3{
   background: url('images/Consulting 2 - TechTank.png');
   background-size: cover;
+}
+
+/* RESEARCH AND DEVELOPMENT PAGE SLIDER */
+
+.research-image-1{
+  background: url('images/Digital Training -TechTank.png');
+  background-size: cover;
+}
+
+.research-image-2{
+  background: url('images/Digital Research - TechTanks.png');
+  background-size: cover;
+}
+
+.research-image-3{
+  background: url('images/Consulting 2 - TechTank.png');
+  background-size: cover;
+}
+
+#research .research-card-image-1{
+  background: url('images/Digital Training -TechTank.png');
+  background-size: cover;
+}
+
+#research .research-card-image-2{
+  background: url('images/Consulting 2 - TechTank.png');
+  background-size: cover;
+}
+
+#research .research-card-image-3{
+  background: url('images/Digital Research - TechTanks.png');
+  background-size: cover;
+}
+
+/* DIGITAL CONSULTING PAGE */
+
+#consulting-header{
+  background: url('images/Consulting -TechTank.png');
+  background-size: cover;
+  height: 550px;
+}
+#consulting-header .py-5{
+  padding-top: 8rem !important;
+}
+
+#consulting .card{
+  color: #fff;
+  background: rgba(4, 23, 72, 0.9);
+  box-shadow: 1px -2px 3px 2px #ECECEC;
 }
