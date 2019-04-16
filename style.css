@@ -92,6 +92,9 @@
   #about-card  .card{
     height: 210px;
   }
+  #sub-footer .pl-8{
+    padding-left: 27rem;
+  }
 
   /* DIGITAL PROGRAM PAGE */
 
@@ -311,7 +314,9 @@ border-radius: 2px;
 #digital-specialist h2,
 #user-research h2,
 #data-analysis h2,
-#content-and-design h2{
+#content-and-design h2,
+#digital-leadership h2,
+#operation-management{
   color: rgba(4, 23, 72, 0.9);
 }
 
@@ -324,7 +329,9 @@ border-radius: 2px;
 #digital-specialist hr,
 #user-research hr,
 #data-analysis hr,
-#content-and-design hr{
+#content-and-design hr,
+#digital-leadership hr,
+#operation-management hr{
   background: rgba(4, 23, 72, 0.9);
   border: 1px solid rgba(4, 23, 72, 0.9);
   border-radius: 0px 0px 5px 5px;
@@ -474,6 +481,42 @@ border-radius: 2px;
   background-size: cover;
 }
 
+
+/* LEADERSHIP MANAGEMENT SLIDER */
+
+.digital-leadership-image-1{
+  background: url('images/Digital Training -TechTank.png');
+  background-size: cover;
+}
+
+.digital-leadership-image-2{
+  background: url('images/Digital Research - TechTanks.png');
+  background-size: cover;
+}
+
+.digital-leadership-image-3{
+  background: url('images/Consulting 2 - TechTank.png');
+  background-size: cover;
+}
+
+
+/* OPERATION MANAGEMENT SLIDER */
+
+.operation-management-image-1{
+  background: url('images/Digital Training -TechTank.png');
+  background-size: cover;
+}
+
+.operation-management-image-2{
+  background: url('images/Digital Research - TechTanks.png');
+  background-size: cover;
+}
+
+.operation-management-image-3{
+  background: url('images/Consulting 2 - TechTank.png');
+  background-size: cover;
+}
+
 /* RESEARCH AND DEVELOPMENT PAGE SLIDER */
 
 .research-image-1{
@@ -521,4 +564,25 @@ border-radius: 2px;
   color: #fff;
   background: rgba(4, 23, 72, 0.9);
   box-shadow: 1px -2px 3px 2px #ECECEC;
+}
+
+
+/* CONTACT US PAGE */
+
+#contact a{
+  color: rgba(4, 23, 72, 0.9);
+}
+
+.fa {
+  font-size: 24px;
+  color: rgba(4, 23, 72, 0.9);
+}
+
+#contact hr{
+  background: rgba(4, 23, 72, 0.9);
+  border: 1px solid rgba(4, 23, 72, 0.9);
+  border-radius: 0px 0px 5px 5px;
+  width: 79px;
+  height: 2px;
+  margin-left: 40%;
 }
