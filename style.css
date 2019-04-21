@@ -84,12 +84,21 @@
     padding-bottom: 25%;
     padding-top: 25%;
   }
+
+  /* REGISTRATION PAGE */
   #register,
   #step-4,
   #step-3,
   #step-2 {
     padding-bottom: 13%;
     padding-top: 13%;
+  }
+
+  /* USER DASHBOARD PAGE */
+
+  #dashboard {
+    padding-bottom: 35% !important;
+    padding-top: 13% !important;
   }
 }
 
@@ -146,6 +155,13 @@
   #step-2 {
     padding-bottom: 58px;
     padding-top: 15px;
+  }
+
+  /* USER DASHBOARD PAGE */
+
+  #dashboard {
+    padding-bottom: 10% !important;
+    padding-top: 5% !important;
   }
 }
 
@@ -628,11 +644,33 @@ border-radius: 2px;
   color: rgba(4, 23, 72, 0.9);
 }
 
+#location .fa{
+    color: #fff !important;
+    font-size: 24px;
+}
+#location hr{
+  background: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 0px 0px 5px 5px;
+  width: 79px;
+  height: 2px;
+  margin-left: 40%;
+}
+
 #contact .fa {
   font-size: 24px;
   color: rgba(4, 23, 72, 0.9);
 }
-
+#contact-form .fa, {
+  font-size: 24px;
+  color: #fff;
+}
+.text-info{
+  color: rgba(4, 23, 72, 0.9) !important;
+}
+.bg-info, .btn-info {
+  background-color: rgba(4, 23, 72, 0.9) !important;
+}
 #contact hr{
   background: rgba(4, 23, 72, 0.9);
   border: 1px solid rgba(4, 23, 72, 0.9);
@@ -673,4 +711,12 @@ border-radius: 2px;
   border-radius: 0px 0px 5px 5px;
   width: 200px;
   height: 2px;
+}
+
+#dashboard hr{
+  background: rgba(4, 23, 72, 0.9);
+  border: 1px solid rgba(4, 23, 72, 0.9);
+  border-radius: 0px 0px 5px 5px;
+  width: 100%;
+  height: 1px;
 }
