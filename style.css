@@ -374,6 +374,7 @@ border-radius: 2px;
 }
 
 #about hr,
+#about-card hr,
 #innovation-center hr,
 #consulting hr,
 #digital-project hr,
@@ -657,13 +658,18 @@ border-radius: 2px;
   margin-left: 40%;
 }
 
-#contact .fa {
+#contact .fa,
+#about-card .fa {
   font-size: 24px;
   color: rgba(4, 23, 72, 0.9);
 }
 #contact-form .fa, {
   font-size: 24px;
   color: #fff;
+}
+#contact .card,
+#contact-form .card{
+  box-shadow: 0 3px 7px #777;
 }
 .text-info{
   color: rgba(4, 23, 72, 0.9) !important;
