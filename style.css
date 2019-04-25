@@ -42,6 +42,12 @@
     padding-bottom: 100px;
     padding-top: 35px;
   }
+
+  /* PAYMENT CARD PAGE */
+    #payment-card{
+      padding-bottom: 47% !important;;
+      padding-top: 35% !important;;
+    }
 }
 
 /* Medium devices (tablets) */
@@ -100,6 +106,12 @@
     padding-bottom: 35% !important;
     padding-top: 13% !important;
   }
+
+  /* PAYMENT CARD PAGE */
+    #payment-card{
+      padding-bottom: 34% !important;
+      padding-top: 42% !important;
+    }
 }
 
 
@@ -152,7 +164,8 @@
   #register,
   #step-4,
   #step-3,
-  #step-2 {
+  #step-2
+   {
     padding-bottom: 58px;
     padding-top: 15px;
   }
@@ -162,6 +175,12 @@
   #dashboard {
     padding-bottom: 10% !important;
     padding-top: 5% !important;
+  }
+
+/* PAYMENT CARD PAGE */
+  #payment-card{
+    padding-bottom: 10% !important;
+    padding-top: 9% !important;
   }
 }
 
@@ -369,7 +388,7 @@ border-radius: 2px;
 #data-analysis h2,
 #content-and-design h2,
 #digital-leadership h2,
-#operation-management{
+#operation-management h2{
   color: rgba(4, 23, 72, 0.9);
 }
 
@@ -386,7 +405,9 @@ border-radius: 2px;
 #data-analysis hr,
 #content-and-design hr,
 #digital-leadership hr,
-#operation-management hr{
+#operation-management hr,
+#meet-team hr,
+#center-exc hr{
   background: rgba(4, 23, 72, 0.9);
   border: 1px solid rgba(4, 23, 72, 0.9);
   border-radius: 0px 0px 5px 5px;
@@ -659,7 +680,9 @@ border-radius: 2px;
 }
 
 #contact .fa,
-#about-card .fa {
+#about-card .fa,
+#team-2 .fa,
+#team-3 .fa{
   font-size: 24px;
   color: rgba(4, 23, 72, 0.9);
 }
