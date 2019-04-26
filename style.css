@@ -257,11 +257,13 @@ border-radius: 2px;
   color: rgba(4, 23, 72, 0.9);
 }
 
-#detail .btn-outline-primary{
+#detail .btn-outline-primary,
+#project .btn-outline-primary{
   border-color: rgba(4, 23, 72, 0.9);
   color: rgba(4, 23, 72, 0.9);
 }
-#detail .btn-outline-primary:hover{
+#detail .btn-outline-primary:hover,
+#project .btn-outline-primary:hover{
   background-color: rgba(4, 23, 72, 0.9);
   color: #fff;
 }
@@ -407,7 +409,8 @@ border-radius: 2px;
 #digital-leadership hr,
 #operation-management hr,
 #meet-team hr,
-#center-exc hr{
+#center-exc hr,
+#project hr{
   background: rgba(4, 23, 72, 0.9);
   border: 1px solid rgba(4, 23, 72, 0.9);
   border-radius: 0px 0px 5px 5px;
@@ -742,10 +745,31 @@ border-radius: 2px;
   height: 2px;
 }
 
-#dashboard hr{
+#dashboard hr {
   background: rgba(4, 23, 72, 0.9);
   border: 1px solid rgba(4, 23, 72, 0.9);
   border-radius: 0px 0px 5px 5px;
   width: 100%;
   height: 1px;
+}
+
+/* TERMS AND CONDITION */
+#terms-heading h1,  h2{
+  color: rgba(4, 23, 72, 0.9);
+}
+#terms-heading hr,
+#privacy-heading hr,
+#case-study-heading hr{
+  background: rgba(4, 23, 72, 0.9);
+  border: 1px solid rgba(4, 23, 72, 0.9);
+  border-radius: 0px 0px 5px 5px;
+  width: 80%;
+  height: 2px;
+}
+/* PRIVACY POLICY */
+#privacy-heading h1, h2 {
+  color: rgba(4, 23, 72, 0.9);
+}
+#case-study-heading h1, h2 {
+  color: rgba(4, 23, 72, 0.9);
 }
