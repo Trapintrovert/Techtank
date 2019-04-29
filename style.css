@@ -10,7 +10,7 @@
 @media (max-width:575px) {
 
   #detail .card{
-    height: 340px;
+    height: 250px;
   }
 
   #detail .display-4 {
@@ -56,7 +56,9 @@
   #detail .card{
     height: 425px;
   }
-
+  #detail .card-body{
+    padding-top: 110px;
+  }
   #detail .display-4 {
     font-size: 3.0rem;
   }
@@ -182,7 +184,6 @@
   }
 }
 
-
 .navbar li a:hover{
 border-bottom: 2px solid #fff;
 border-radius: 2px;
@@ -229,16 +230,27 @@ border-radius: 2px;
 #detail a:hover{
   text-decoration: none;
 }
-
-#detail .fa{
-  color: rgba(4, 23, 72, 0.9);
-  font-size: 100px;
-  padding-left: 40%;
-}
 #detail .card{
-border: 0px;
+  border: 0px;
 }
+#detail .card-image-1{
+  background: url('images/Digital Research - TechTanks.png');
+  background-size: cover;
+}
+
+#detail .card-image-2{
+  background: url('images/Research and Development - TechTank.png');
+  background-size: cover;
+}
+
+#detail .card-image-3{
+  background: url('images/Consulting 3 -TechTank.png');
+  background-size: cover;
+}
+
 #detail h2{
+  background: #fff;
+  opacity: 0.7;
   color: rgba(4, 23, 72, 0.9);
 }
 #detail h3{
