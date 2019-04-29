@@ -182,6 +182,7 @@
   }
 }
 
+
 .navbar li a:hover{
 border-bottom: 2px solid #fff;
 border-radius: 2px;
@@ -235,9 +236,8 @@ border-radius: 2px;
   padding-left: 40%;
 }
 #detail .card{
-
+border: 0px;
 }
-
 #detail h2{
   color: rgba(4, 23, 72, 0.9);
 }
