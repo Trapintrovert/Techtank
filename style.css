@@ -138,7 +138,7 @@
     margin-right: 30%;
   }
   #about-card  .card{
-    height: 210px;
+    height: 240px;
   }
   #sub-footer .pl-8{
     padding-left: 27rem;
@@ -200,17 +200,17 @@ border-radius: 2px;
 }
 
 .carousel-image-1{
-  background: url('images/Digital Training -TechTank.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/v1554740854/Digital_Training_-TechTank.png');
   background-size: cover;
 }
 
 .carousel-image-2{
-  background: url('images/Digital Research - TechTanks.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/v1554740858/Research_and_Development_-_TechTank.png');
   background-size: cover;
 }
 
 .carousel-image-3{
-  background: url('images/Consulting 2 - TechTank.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/v1554740825/Consulting_2_-_TechTank.png');
   background-size: cover;
 }
 .carousel-caption{
@@ -237,17 +237,17 @@ border-radius: 2px;
   border: 0px;
 }
 #detail .card-image-1{
-  background: url('images/Digital Research - TechTanks.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_300,w_600/v1554744992/programs.png');
   background-size: cover;
 }
 
 #detail .card-image-2{
-  background: url('images/Research and Development - TechTank.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_300,w_600/v1554743966/innovation.png');
   background-size: cover;
 }
 
 #detail .card-image-3{
-  background: url('images/Consulting 3 -TechTank.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_300,w_600/v1554743541/image01.png');
   background-size: cover;
 }
 
@@ -306,25 +306,25 @@ border-radius: 2px;
 }
 
 #about-card .about-card-image-1 {
-    background: url('images/programs.png');
+    background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_210,w_1000/v1556778546/Consulting%204%20-%20TechTank.png');
     background-size: cover;
 }
 
 #about-card .about-card-image-2 {
-    background: url('images/Research and Development - TechTank.png');
+    background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_210,w_1000/v1554740865/Digital_Research_-_TechTanks.png');
     background-size: cover;
 }
 
 #about-card .about-card-image-3 {
-    background: url('images/innovation.png');
+    background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_210,w_1000/v1554743966/innovation.png');
     background-size: cover;
 }
 #about-card .about-card-image-4 {
-    background: url('images/consulting.png');
+    background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_210,w_1000/v1554743541/Consulting%205%20-%20Techtank.png');
     background-size: cover;
 }
 #about-card .about-card-image-5 {
-    background: url('images/Team.png');
+    background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_210,w_1110/v1554743561/Team.png');
     background-size: cover;
 }
 
@@ -603,39 +603,39 @@ border-radius: 2px;
 /* RESEARCH AND DEVELOPMENT PAGE SLIDER */
 
 .research-image-1{
-  background: url('images/Digital Training -TechTank.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/v1556781134/innovation%20-2.png');
   background-size: cover;
 }
 
 .research-image-2{
-  background: url('images/Digital Research - TechTanks.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/v1556781841/projects.png');
   background-size: cover;
 }
 
 .research-image-3{
-  background: url('images/Consulting 2 - TechTank.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/v1556781480/case%20study.png');
   background-size: cover;
 }
 
 #research .research-card-image-1{
-  background: url('images/Digital Training -TechTank.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_225,w_540/v1556781134/innovation%20-2.png');
   background-size: cover;
 }
 
 #research .research-card-image-2{
-  background: url('images/Consulting 2 - TechTank.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_225,w_540/v1556781841/projects.png');
   background-size: cover;
 }
 
 #research .research-card-image-3{
-  background: url('images/Digital Research - TechTanks.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_225,w_540/v1556781480/case%20study.png');
   background-size: cover;
 }
 
 /* DIGITAL CONSULTING PAGE */
 
 #consulting-header{
-  background: url('images/Consulting -TechTank.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/v1554740837/consulting_-TechTank.png');
   background-size: cover;
   height: 550px;
 }
@@ -652,7 +652,7 @@ border-radius: 2px;
 /* INNOVATION CENTER PAGE */
 
 #innovation-header{
-  background: url('images/Consulting -TechTank.png');
+  background: url('https://res.cloudinary.com/trapintrovert/image/upload/v1556782980/innovation%20center.png');
   background-size: cover;
   height: 550px;
 }
