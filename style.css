@@ -130,6 +130,9 @@
   #detail .card{
     height: 300px;
   }
+  #about .pl-8{
+    padding-left: 17rem !important;
+  }
   #about-card h3{
     margin-left: 30%;
     margin-right: 30%;
@@ -358,6 +361,7 @@ border-radius: 2px;
 #programs .card h2:hover{
   color: #fff;
 }
+
 #programs a:hover{
   text-decoration: none;
   list-style: none;
@@ -368,7 +372,7 @@ border-radius: 2px;
 }
 #programs .card:hover {
   background:  rgba(4, 23, 72, 0.9);
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 
