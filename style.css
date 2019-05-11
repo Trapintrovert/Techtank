@@ -7,8 +7,18 @@
 
  /* HOME PAGE STYLE */
 
-@media (max-width:575px) {
+ @media (max-width:360px) {
+   #research-header h1,
+   #consulting-header h1,
+   #innovation-header h1{
+     font-size: 54px !important;
+   }
+}
 
+@media (max-width:575px) {
+#consulting-header .pad{
+  padding-top: 7rem !important;
+}
   #detail .card{
     height: 250px;
   }
@@ -19,11 +29,17 @@
   .carousel-caption h2{
     font-size: 52px;
   }
+
   /* DIGITAL PROGRAM PAGE */
 
-  #programs .detail-btn{
-  margin-left: 40%;
-  padding-top: 4em;
+  #dt-header .pad-left,
+  #research-header .pad-left{
+    padding-left: 7rem !important;
+  }
+
+
+  #dt-header .pad{
+    padding-top: 7rem !important;
   }
 
   /* DIGITAL PROJECT MANAGEMENT PAGE */
@@ -31,6 +47,7 @@
   margin-left: 40%;
   padding-top: 4em;
   }
+
 
   /* LOGIN PAGE */
 
@@ -48,13 +65,68 @@
       padding-bottom: 47% !important;;
       padding-top: 35% !important;;
     }
+
+    #about hr,
+    #whoa hr,
+    #coe hr,
+    #about-card hr,
+    #innovation-center hr,
+    #consulting hr,
+    #digital-project hr,
+    #digital-product hr,
+    #business-analysis hr,
+    #performance-management hr,
+    #digital-specialist hr,
+    #user-research hr,
+    #data-analysis hr,
+    #content-and-design hr,
+    #digital-leadership hr,
+    #operation-management hr,
+    #meet-team hr,
+    #center-exc hr,
+    #project hr{
+      background: rgba(4, 23, 72, 0.9);
+      border: 1px solid rgba(4, 23, 72, 0.9);
+      border-radius: 0px 0px 5px 5px;
+      width: 79px;
+      height: 2px;
+      margin-left: 36%;
+    }
 }
 
 /* Medium devices (tablets) */
 @media (min-width:768px) {
+  #about hr,
+  #coe hr,
+  #whoa hr,
+  #about-card hr,
+  #innovation-center hr,
+  #consulting hr,
+  #digital-project hr,
+  #digital-product hr,
+  #business-analysis hr,
+  #performance-management hr,
+  #digital-specialist hr,
+  #user-research hr,
+  #data-analysis hr,
+  #content-and-design hr,
+  #digital-leadership hr,
+  #operation-management hr,
+  #meet-team hr,
+  #center-exc hr,
+  #project hr{
+    background: rgba(4, 23, 72, 0.9);
+    border: 1px solid rgba(4, 23, 72, 0.9);
+    border-radius: 0px 0px 5px 5px;
+    width: 79px;
+    height: 2px;
+    margin-left: 46%;
+  }
 
-  #header .pad-left{
-    padding-left: 13rem !important;
+  #header .pad-left,
+  #dt-header .pad-left,
+  #research-header .pad-left{
+    padding-left: 16rem !important;
   }
 
   #detail .card{
@@ -126,7 +198,36 @@
   }
 }
 @media (min-width:1000px) {
-  #header .pad-left{
+  #about hr,
+  #coe hr,
+  #whoa hr,
+  #about-card hr,
+  #innovation-center hr,
+  #consulting hr,
+  #digital-project hr,
+  #digital-product hr,
+  #business-analysis hr,
+  #performance-management hr,
+  #digital-specialist hr,
+  #user-research hr,
+  #data-analysis hr,
+  #content-and-design hr,
+  #digital-leadership hr,
+  #operation-management hr,
+  #meet-team hr,
+  #center-exc hr,
+  #project hr{
+    background: rgba(4, 23, 72, 0.9);
+    border: 1px solid rgba(4, 23, 72, 0.9);
+    border-radius: 0px 0px 5px 5px;
+    width: 79px;
+    height: 2px;
+    margin-left: 46%;
+  }
+
+  #header .pad-left,
+  #dt-header .pad-left,
+    #research-header .pad-left{
     padding-left: 13rem !important;
   }
 }
@@ -134,8 +235,37 @@
 /* Extra large devices (large desktops) */
 @media (min-width:1200px) {
 
-  #header .pad-left{
-    padding-left: 26rem !important;
+  #about hr,
+  #whoa hr,
+  #coe hr,
+  #about-card hr,
+  #innovation-center hr,
+  #consulting hr,
+  #digital-project hr,
+  #digital-product hr,
+  #business-analysis hr,
+  #performance-management hr,
+  #digital-specialist hr,
+  #user-research hr,
+  #data-analysis hr,
+  #content-and-design hr,
+  #digital-leadership hr,
+  #operation-management hr,
+  #meet-team hr,
+  #center-exc hr,
+  #project hr{
+    background: rgba(4, 23, 72, 0.9);
+    border: 1px solid rgba(4, 23, 72, 0.9);
+    border-radius: 0px 0px 5px 5px;
+    width: 79px;
+    height: 2px;
+    margin-left: 46%;
+  }
+
+  #header .pad-left,
+  #dt-header .pad-left,
+    #research-header .pad-left{
+    padding-left: 28rem !important;
   }
   #detail .card{
     height: 300px;
@@ -143,10 +273,7 @@
   #about .pl-8{
     padding-left: 17rem !important;
   }
-  #about-card h3{
-    margin-left: 30%;
-    margin-right: 30%;
-  }
+
   #about-card  .card{
     height: 240px;
   }
@@ -195,35 +322,65 @@
     padding-bottom: 10% !important;
     padding-top: 9% !important;
   }
+
 }
 
 .navbar li a:hover{
-border-bottom: 2px solid #fff;
+border-bottom: 2px solid #000;
 border-radius: 2px;
 }
 .navbar{
-  background: rgba(4, 23, 72, 0.9);
+  background: #fff;
+}
+.navbar-toggler {
+  background-color: #1E90FF !important;
 }
 
+/* HOMEPAGE HEADER */
 #header{
   height: 680px;
-  background-color: rgba(4, 23, 72, 0.9);
+  background-color: #1E90FF;
   color: #fff;
 }
-#header h1{
-  font-size: 84px;
+#header h1,
+#dt-header h1,
+#research-header h1,
+#consulting-header h1,
+#innovation-header h1{
+  font-size: 60px;
 }
 
-#header .pad{
+#header .pad,
+#dt-header .pad,
+#consulting-header .pad,
+#innovation-header .pad{
+  padding-top: 12rem ;
+}
+
+#dt-header,
+#innovation-header{
+  height: 640px;
+  background-color: #40E0D0;
+  color: #000;
+}
+
+#research-header{
+  height: 640px;
+  background-color: #DAA520;
+  color: #000000;
+}
+#research-header .pad{
   padding-top: 14rem !important;
 }
 
+#consulting-header{
+  height: 640px;
+  background-color: #B22222;
+  color: #fff;
+}
+
 .carousel-caption h2,
-.carousel-caption p,
-#consulting-header h2,
-#consulting-header p,
-#innovation-header p,
-#innovation-header h2{
+.carousel-caption p{
   background: #fff;
   opacity: 0.7;
   color: #000000;
@@ -237,18 +394,20 @@ border-radius: 2px;
   border: 0px;
 }
 #detail .card-image-1{
-  background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_300,w_600/v1554744992/programs.png');
-  background-size: cover;
+  background-color: #40E0D0;
+
+  height: 300px;
 }
 
 #detail .card-image-2{
-  background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_300,w_600/v1554743966/innovation.png');
-  background-size: cover;
+  background-color: #DAA520;
+  height: 300px;
 }
 
 #detail .card-image-3{
-  background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_300,w_600/v1554743541/image01.png');
-  background-size: cover;
+  background-color: #B22222;
+
+  height: 300px;
 }
 
 #detail h2{
@@ -271,7 +430,7 @@ border-radius: 2px;
   color: #fff;
 }
 #main-footer{
-  background: rgba(4, 23, 72, 0.9);
+  background: #1E90FF;
 }
 #main-footer hr{
   background: #fff;
@@ -301,7 +460,8 @@ border-radius: 2px;
 /* ABOUT US PAGE */
 
 
-#about h3{
+#about h3,
+#about h4{
   color: rgba(4, 23, 72, 0.9);
 }
 
@@ -323,16 +483,13 @@ border-radius: 2px;
     background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_210,w_1000/v1554743541/Consulting%205%20-%20Techtank.png');
     background-size: cover;
 }
-#about-card .about-card-image-5 {
-    background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_210,w_1110/v1554743561/Team.png');
-    background-size: cover;
-}
+
 
 #about-card h3, #research h2{
   color: #fff;
   background: rgba(4, 23, 72, 0.9);
   opacity: 0.8;
-  font-size: 40px;
+
 }
 #about-card a, #research a{
   color: #fff;
@@ -356,10 +513,10 @@ border-radius: 2px;
 }
 
 #programs h2{
-  color: color: #000000;
+  color: #000000;
 }
 #programs .card h2:hover{
-  color: #fff;
+  color: rgba(4, 23, 72, 0.9);
 }
 
 #programs a:hover{
@@ -371,16 +528,25 @@ border-radius: 2px;
   box-shadow: 1px -2px 3px 2px #ECECEC;
 }
 #programs .card:hover {
-  background:  rgba(4, 23, 72, 0.9);
-  color: #ffffff !important;
+  background:  #40E0D0;
+  color: #40E0D0 !important;
 }
 
 
 /* SIGN IN AND REGISTRATION */
 
-#logreg .btn-primary{
+/* #logreg .btn-primary{
   background: rgba(4, 23, 72, 0.9);
   border-color: rgba(4, 23, 72, 0.9);
+} */
+
+#register img,
+#login img,
+#step-2 img,
+#step-3 img,
+#step-4 img{
+  padding-left: 35%;
+  padding-bottom: 10% !important;
 }
 
 /* ALL DIGITAL TRAINING PROGRAM H2 AND HR */
@@ -398,267 +564,36 @@ border-radius: 2px;
   color: #000000;
 }
 
-#about hr,
-#about-card hr,
-#innovation-center hr,
-#consulting hr,
-#digital-project hr,
-#digital-product hr,
-#business-analysis hr,
-#performance-management hr,
-#digital-specialist hr,
-#user-research hr,
-#data-analysis hr,
-#content-and-design hr,
-#digital-leadership hr,
-#operation-management hr,
-#meet-team hr,
-#center-exc hr,
-#project hr{
-  background: rgba(4, 23, 72, 0.9);
-  border: 1px solid rgba(4, 23, 72, 0.9);
-  border-radius: 0px 0px 5px 5px;
-  width: 79px;
-  height: 2px;
-  margin-left: 46%;
-}
 
 
-/* DIGITAL PROJECT MANAGEMENT */
-
-.digital-project-image-1{
-  background: url('images/Digital Training -TechTank.png');
-  background-size: cover;
-}
-
-.digital-project-image-2{
-  background: url('images/Digital Research - TechTanks.png');
-  background-size: cover;
-}
-
-.digital-project-image-3{
-  background: url('images/Consulting 2 - TechTank.png');
-  background-size: cover;
-}
-
-
-/* DIGITAL PRODUCT MANAGEMENT SLIDER */
-
-.digital-product-image-1{
-  background: url('images/Digital Training -TechTank.png');
-  background-size: cover;
-}
-
-.digital-product-image-2{
-  background: url('images/Digital Research - TechTanks.png');
-  background-size: cover;
-}
-
-.digital-product-image-3{
-  background: url('images/Consulting 2 - TechTank.png');
-  background-size: cover;
-}
-
-
-/* DIGITAL BUSINESS MANAGEMENT SLIDER */
-
-.business-analysis-image-1{
-  background: url('images/Digital Training -TechTank.png');
-  background-size: cover;
-}
-
-.business-analysis-image-2{
-  background: url('images/Digital Research - TechTanks.png');
-  background-size: cover;
-}
-
-.business-analysis-image-3{
-  background: url('images/Consulting 2 - TechTank.png');
-  background-size: cover;
-}
-
-
-/* DIGITAL PERFORMANCE MANAGEMENT SLIDER */
-
-.performance-management-image-1{
-  background: url('images/Digital Training -TechTank.png');
-  background-size: cover;
-}
-
-.performance-management-image-2{
-  background: url('images/Digital Research - TechTanks.png');
-  background-size: cover;
-}
-
-.performance-management-image-3{
-  background: url('images/Consulting 2 - TechTank.png');
-  background-size: cover;
-}
-
-/* DIGITAL SPECIALIST SLIDER */
-
-.digital-specialist-image-1{
-  background: url('images/Digital Training -TechTank.png');
-  background-size: cover;
-}
-
-.digital-specialist-image-2{
-  background: url('images/Digital Research - TechTanks.png');
-  background-size: cover;
-}
-
-.digital-specialist-image-3{
-  background: url('images/Consulting 2 - TechTank.png');
-  background-size: cover;
-}
-
-/* USER RESEARCH SLIDER */
-
-.user-research-image-1{
-  background: url('images/Digital Training -TechTank.png');
-  background-size: cover;
-}
-
-.user-research-image-2{
-  background: url('images/Digital Research - TechTanks.png');
-  background-size: cover;
-}
-
-.user-research-image-3{
-  background: url('images/Consulting 2 - TechTank.png');
-  background-size: cover;
-}
-
-/* DATA ANALYSIS SLIDER */
-
-.data-analysis-image-1{
-  background: url('images/Digital Training -TechTank.png');
-  background-size: cover;
-}
-
-.data-analysis-image-2{
-  background: url('images/Digital Research - TechTanks.png');
-  background-size: cover;
-}
-
-.data-analysis-image-3{
-  background: url('images/Consulting 2 - TechTank.png');
-  background-size: cover;
-}
-
-
-/* CONTENT AND DESIGN SLIDER */
-
-.content-and-design-image-1{
-  background: url('images/Digital Training -TechTank.png');
-  background-size: cover;
-}
-
-.content-and-design-image-2{
-  background: url('images/Digital Research - TechTanks.png');
-  background-size: cover;
-}
-
-.content-and-design-image-3{
-  background: url('images/Consulting 2 - TechTank.png');
-  background-size: cover;
-}
-
-
-/* LEADERSHIP MANAGEMENT SLIDER */
-
-.digital-leadership-image-1{
-  background: url('images/Digital Training -TechTank.png');
-  background-size: cover;
-}
-
-.digital-leadership-image-2{
-  background: url('images/Digital Research - TechTanks.png');
-  background-size: cover;
-}
-
-.digital-leadership-image-3{
-  background: url('images/Consulting 2 - TechTank.png');
-  background-size: cover;
-}
-
-
-/* OPERATION MANAGEMENT SLIDER */
-
-.operation-management-image-1{
-  background: url('images/Digital Training -TechTank.png');
-  background-size: cover;
-}
-
-.operation-management-image-2{
-  background: url('images/Digital Research - TechTanks.png');
-  background-size: cover;
-}
-
-.operation-management-image-3{
-  background: url('images/Consulting 2 - TechTank.png');
-  background-size: cover;
-}
-
-/* RESEARCH AND DEVELOPMENT PAGE SLIDER */
-
-.research-image-1{
-  background: url('https://res.cloudinary.com/trapintrovert/image/upload/v1556781134/innovation%20-2.png');
-  background-size: cover;
-}
-
-.research-image-2{
-  background: url('https://res.cloudinary.com/trapintrovert/image/upload/v1556781841/projects.png');
-  background-size: cover;
-}
-
-.research-image-3{
-  background: url('https://res.cloudinary.com/trapintrovert/image/upload/v1556781480/case%20study.png');
-  background-size: cover;
-}
+/* RESEARCH AND DEVELOPMENT CARD */
 
 #research .research-card-image-1{
-  background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_225,w_540/v1556781134/innovation%20-2.png');
-  background-size: cover;
+  background-color: #FFFF00;
+  height: 150px;
 }
 
 #research .research-card-image-2{
-  background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_225,w_540/v1556781841/projects.png');
-  background-size: cover;
+  background-color: #FF0000;
+  height: 150px;
 }
 
 #research .research-card-image-3{
-  background: url('https://res.cloudinary.com/trapintrovert/image/upload/c_scale,h_225,w_540/v1556781480/case%20study.png');
-  background-size: cover;
+  background-color: #2E8B57;
+  height: 150px;
 }
 
 /* DIGITAL CONSULTING PAGE */
 
-#consulting-header{
-  background: url('https://res.cloudinary.com/trapintrovert/image/upload/v1554740837/consulting_-TechTank.png');
-  background-size: cover;
-  height: 550px;
-}
-#consulting-header .py-5{
-  padding-top: 8rem !important;
-}
+
 
 #consulting .card{
   color: #fff;
-  background: rgba(4, 23, 72, 0.9);
+  background: #B22222;
   box-shadow: 1px -2px 3px 2px #ECECEC;
 }
 
 /* INNOVATION CENTER PAGE */
-
-#innovation-header{
-  background: url('https://res.cloudinary.com/trapintrovert/image/upload/v1556782980/innovation%20center.png');
-  background-size: cover;
-  height: 550px;
-}
-#innovation-header .py-5{
-  padding-top: 8rem !important;
-}
 
 #innovation-center .card{
   color: #fff;
